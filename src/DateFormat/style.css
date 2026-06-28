@@ -1,0 +1,9 @@
+.block{
+    color: white;
+    background-color: rgb(6, 155, 63);
+    border: solid 1px aqua;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}

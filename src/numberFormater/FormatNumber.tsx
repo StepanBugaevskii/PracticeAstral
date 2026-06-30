@@ -2,7 +2,7 @@ import { useNumberFormat } from "./hooks/useFormatNumber";
 import "./style.css";
 
 export const FormatNumber = () => {
-	const number = 10000.12;
+	const number = 2000;
 	return (
 		<>
 			<div className="block-formated">{number.toLocaleString("ru-RU")}</div>

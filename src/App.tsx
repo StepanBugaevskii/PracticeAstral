@@ -1,4 +1,3 @@
-import "./App.css";
 import { CssGrid } from "./cssGrid/Grid";
 import { Block } from "./myBlock/Block";
 import { DateFormat } from "./DateFormat/DateFormat";

@@ -3,12 +3,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .column{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 }
 .flex-block{
     background-color: #39cfdd;
@@ -16,8 +15,8 @@
     border-radius: 2px;
     color: white;
     text-align: center;
-    display: inline-block;
     margin: 5px;
     padding: 5px;
     min-width: 50px;
+    flex: 1 1 100px;
 }
